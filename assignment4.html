@@ -1,0 +1,110 @@
+<!--
+Submitted By: Chitwan Katyal
+Student ID: 301169422
+COMP125
+Assignment 04 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 - Form Validation</title>
+    <link rel="stylesheet" href="assignment4.css">
+</head>
+<body>
+    <div id="allPage">
+    <header>
+        <h1>Chitwan's Membership Form</h1>    
+    </header>
+    <main>
+      <form>
+          <fieldset>
+              <legend>
+                  <h3>Please complete all the fields below:</h3>
+              </legend>
+          <table>
+              <tr>
+                  <td>
+                      First Name:</td>
+                      <td>
+                          <input type="text" id="fname" size="30" tabindex="1"><span id="fnameerror"></span>
+                      </td>
+              </tr>
+              <tr>
+                  <td>Last Name:</td>
+                  <td>
+                      <input type="text" id="lname" size="30" tabindex="2"><span id="lnameerror"></span>
+                  </td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td>
+                    <input type="text" id="address" size="60" tabindex="3"><span id="addresserror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td>
+                    <input type="text" id="city" size="10" tabindex="4"><span id="cityerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Postal Code:</td>
+                <td>
+                    <input type="text" id="postalCode" size="6" tabindex="5"><span id="postalcodeerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Province:</td>
+                <td>
+                    <input type="text" id="province" size="2" tabindex="6"><span id="provinceerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td>
+                    <input type="number" id="age" size="3" tabindex="7"><span id="ageerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" id="password" size="20" tabindex="8"><span id="passworderror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td>
+                    <input type="password" id="confirmPassword" size="20" tabindex="9"><span id="confirmerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="text" id="email" size="30" tabindex="10"><span id="emailerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="submitButton" tabindex="11" value="Register Now" />
+                </td>
+            
+                <td>
+                    <input type="button" id="reset" tabindex="12" value="Clear Form" />
+                </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>  
+    </main>
+    <footer>
+        <h6>&copy;&nbsp;Copyright Chitwan Katyal - 301169422 - Assignment 04 - COMP125</h6>
+    </footer>
+</div>
+    <script src="assignment4.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* 
+Submitted By: Chitwan Katyal
+Student ID: 301169422
+COMP125
+Assignment 04
+*/
+
+body {
+    font-family: Agency FB;
+    background-image: url("bgImage.jpg");
+}
+h1{
+    font-family: Agency FB;
+    text-transform: capitalize;
+    font-weight: bolder;
+    background-color:#16003b;
+    opacity: 0.7;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+h3{
+    font-family: Agency FB;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:cyan ;
+    padding: 8px 8px 8px 8px;
+}
+#allPage{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    
+}
+form{
+    background-color: #15023a;
+    opacity: 0.6;
+    font-family: Agency FB;
+    box-shadow: #bae3dc 10px 10px 0.9em;
+    border-style:hidden;
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+}
+fieldset{
+    border: medium double white;
+    border-width: 4px;
+    border-radius: 20px;
+}
+#submitButton{
+padding: 5px 5px 5px 5px;
+margin: 8px 8px 8px 8px;
+border-style: solid;
+border-radius: 6px;
+border-color:black;
+box-shadow:#bae3dc 5px 5px 5px;
+background-color:cyan ;
+color:black;
+font-family: Agency FB;
+font-weight: bold;
+font-size: large;
+}
+#reset{
+    padding: 5px 5px 5px 5px;
+    margin: 8px 8px 8px 8px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color:black;
+    box-shadow:#bae3dc 5px 5px 5px;
+    background-color:cyan ;
+    color:black;
+    font-family: Agency FB;
+    font-weight: bold; 
+    font-size: large; 
+}
+input{
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: cyan;
+    font-family: Agency FB;
+    color: black;
+    font-size: large;
+}
+h6{
+    font-family: Agency FB;
+    background-color: #16003b;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-size: medium;
+}
+span{
+    font-family: Agency FB;
+    color: yellow;
+}
